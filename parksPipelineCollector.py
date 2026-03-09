@@ -6,8 +6,8 @@ import datetime
 
 class ParksPipeline:
 
-    API_KEY = "parks_sk_jqAC9bnQiNTnO9hEmHg6_6qH_7kxjdhl6UoI_zIdlMY"
-    CONSUMER_KEY = "HmBRdiQA9f2IrucAtuKWMTT-O4Njlke8"
+    API_KEY = "YOUR_API_KEY"
+    CONSUMER_KEY = "YOUR_CONSUMER_KEY"
     healthCheckURL = "https://msde630.class-labs.com/healthcheck"
     pollURL = f"https://msde630.class-labs.com/poll?consumer_key={CONSUMER_KEY}"
     continueFetching = True
